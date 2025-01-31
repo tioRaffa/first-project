@@ -1,0 +1,31 @@
+.flex-container{
+    background-color: aquamarine;
+
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 20px;
+
+    height: 500px;
+    width: 350px;
+}
+
+.flex-item{
+    flex-direction: column;
+    margin: 10px;
+    margin: 10px;
+}
+.flex-item-2 div{
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+
+    height: 50px;
+    width: 250px;
+}
+
+p{
+    position: relative;
+    left: 34px;
+}
