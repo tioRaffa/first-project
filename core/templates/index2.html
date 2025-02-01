@@ -4,13 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        p{  
+            background-color: aqua;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
 </head>
 <body>
     <h1>INDEX</h1>
 
     <h2>{{ curso }}</h2>
     <p>{{teste}}</p>
-
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preco</th>
+                <th>Estoque</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for pdt in produto %}
+            <tr>
+                <td><a href="{% url 'produto' pdt.id %}" style="text-decoration: none;" target="_blank">
+                    {{pdt.nome}}</td>
+                </a>
+                <td>{{pdt.preco}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 
 </body>
 </html>
