@@ -1,0 +1,40 @@
+body {
+    background-color: beige;
+    color: brown;
+}
+
+div{
+    background-color: rgb(236, 192, 15);
+    height: 50%;
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: rgba(108, 108, 108, 0.8);
+}
+
+img{
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 1.0);
+    
+    border-radius: 20px;
+
+    margin: 20px;
+    height: 200px;
+    width: 550px;
+}
+
+table{
+    margin: 20px;
+}
+
+button{
+    position: relative;
+    float: right;
+    right: 10px;
+    bottom: 45px;
+
+}
