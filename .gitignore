@@ -1,1 +1,9 @@
 helpp/
+
+__pycache__/
+
+.idea
+
+*.*~
+
+*.pyc
