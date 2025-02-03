@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'core/css/not_found.css' %}">
+    <title>404</title>
+</head>
+<body>
+    <main class="bsod container">
+        <h1 class="neg title"><span class="bg">Error - 404</span></h1>
+        <p>An error has occured, to continue:</p>
+        <p>* Return to our homepage.<br />
+        * Send us an e-mail about this error and try later.</p>
+        <a href="{% url 'produtos' %}" class="link">Produtos</a>&nbsp;|&nbsp;<a href="{% url 'home'  %}" class="link">Pagina inicial</a>
+        <nav class="nav">
+        </nav>
+      </main>
+</body>
+</html>
