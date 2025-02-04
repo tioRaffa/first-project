@@ -3,6 +3,5 @@ gunicorn==23.0.0
 ipython==8.12.3
 PyQt5==5.15.10
 PyQtWebEngine==5.15.6
-pywin32==305.1
 sqlparse==0.5.3
 whitenoise==6.8.2
